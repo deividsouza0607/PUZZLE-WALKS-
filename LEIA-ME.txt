@@ -1,0 +1,18 @@
+RACHA-CUCA WALKS — QUEBRA-CABEÇA DE FOTOS
+
+COMO JOGAR
+1. Abra index.html em Chrome, Edge ou Firefox atualizado.
+2. Monte a imagem arrastando uma peça sobre outra ou tocando em duas peças para trocá-las.
+3. Você tem 5 minutos por fase.
+4. Ao concluir uma fase, ganha moedas. Use 10 moedas para uma dica ou 20 moedas para comprar 30 segundos.
+5. As extensões de tempo respeitam o limite de 5 minutos por fase.
+6. Desbloqueie 100 conquistas e avance por 100 fases. O progresso fica salvo no armazenamento local do navegador.
+
+IMAGENS
+A primeira fase utiliza assets/walks-drone-view.png, fornecida pelo usuário. As fases seguintes carregam fotos aleatórias do serviço picsum.photos, portanto precisam de conexão com a internet. As moedas, fases e conquistas são guardadas localmente neste navegador.
+
+OBSERVAÇÃO
+Este é um projeto web local. Não foi incluída compilação de instalador Windows nem sincronização entre dispositivos. Sons são gerados pelo navegador via Web Audio API; alguns navegadores só liberam áudio após a primeira interação do usuário.
+
+
+ÁUDIO FALADO: ao completar uma fase, o navegador fala “Excelente! Fase concluída!” em português do Brasil, usando a voz instalada no sistema. O áudio depende do suporte de voz do navegador e pode exigir que o jogo já tenha recebido uma interação do usuário.
