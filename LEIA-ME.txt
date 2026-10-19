@@ -6,7 +6,7 @@ COMO JOGAR
 3. Você tem 5 minutos por fase.
 4. Ao concluir uma fase, ganha moedas. Use 10 moedas para uma dica ou 20 moedas para comprar 30 segundos.
 5. As extensões de tempo respeitam o limite de 5 minutos por fase.
-6. Desbloqueie 100 conquistas e avance por 100 fases. O progresso fica salvo no armazenamento local do navegador.
+6. Desbloqueie 100 conquistas e avance por 80 fases. O progresso fica salvo no armazenamento local do navegador.
 
 IMAGENS
 A primeira fase utiliza assets/walks-drone-view.png, fornecida pelo usuário. As fases seguintes carregam fotos aleatórias do serviço picsum.photos, portanto precisam de conexão com a internet. As moedas, fases e conquistas são guardadas localmente neste navegador.
