@@ -1,0 +1,31 @@
+{
+  "name": "racha-cuca-walks",
+  "version": "1.0.0",
+  "description": "Racha-Cuca Walks - jogo de quebra-cabeca com imagens, moedas, conquistas e audio",
+  "main": "main.js",
+  "author": "Walks Drone View",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "br.vlog.walksdroneview.rachacuca",
+    "productName": "Racha-Cuca Walks",
+    "asar": true,
+    "files": ["index.html", "main.js", "assets/**/*", "LEIA-ME.txt", "package.json"],
+    "directories": { "output": "dist" },
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }] },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Racha-Cuca Walks"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+RACHA-CUCA WALKS - INSTALADOR PARA WINDOWS
+
+REQUISITOS
+- Windows 10/11 64 bits
+- Node.js LTS instalado: https://nodejs.org
+- Internet na primeira compilacao para baixar Electron e dependencias
+
+COMO GERAR O INSTALADOR
+1. Extraia toda esta pasta para um local do computador.
+2. Instale o Node.js LTS se ainda nao estiver instalado.
+3. Clique duas vezes em GERAR_INSTALADOR.bat.
+4. Aguarde a instalacao das dependencias e a compilacao.
+5. O instalador sera criado dentro da pasta dist, com nome semelhante a Racha-Cuca Walks Setup 1.0.0.exe.
+6. Execute o instalador e siga as instrucoes. Um atalho sera criado na area de trabalho.
+
+O jogo inclui os arquivos de imagens e os audios EXELENTE.mp3 e PERDEU.mp3.
+Os recordes e progresso que usam armazenamento do navegador podem ficar vinculados ao perfil local do aplicativo.
+
+NOTA: este pacote contem o projeto configurado para gerar o instalador; o arquivo .EXE ainda precisa ser compilado no computador Windows com Node.js e internet. A compilacao nao foi executada neste ambiente.
